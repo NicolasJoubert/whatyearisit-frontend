@@ -1,6 +1,4 @@
-fetch(
-  "https://whatyearisit-backend-d8mbnpjlt-nicolasjouberts-projects.vercel.app/year"
-)
+fetch("https://whatyearisit-backend-murex-one.vercel.app/year")
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
