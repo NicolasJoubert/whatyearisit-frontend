@@ -1,4 +1,6 @@
-fetch("whatyearisit-backend-d8mbnpjlt-nicolasjouberts-projects.vercel.app")
+fetch(
+  "http://whatyearisit-backend-d8mbnpjlt-nicolasjouberts-projects.vercel.app"
+)
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
