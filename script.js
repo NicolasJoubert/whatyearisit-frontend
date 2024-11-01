@@ -5,6 +5,5 @@ fetch(
   .then((data) => {
     console.log(data);
 
-    document.querySelector("#year").innerHTML =
-      `    <div id="year">${data.year}</div>`;
+    document.querySelector("#year").textContent = data.year;
   });
